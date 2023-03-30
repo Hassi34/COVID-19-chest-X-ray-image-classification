@@ -1,9 +1,0 @@
-services:
-  app:
-    build: .
-    container_name: covid
-    command: python src/main.py
-    ports:
-      - 8080:8080
-    volumes:
-      - .:/covid_model_serving
