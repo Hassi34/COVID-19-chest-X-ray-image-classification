@@ -52,11 +52,13 @@ Following are the major contents to follow, you can jump to any section:
 >      - [Environment Setup](#env-setup)<br>
 >      - [Environment Variables](#env-vars)<br>
 >      - [Run Pipeline](#run-pipeline)<br>
->   -  [Run a Docker Container](#docker-)<br>
+>      - [REST API with Docker](rest-api)<br>
+>        - [Pull Image from Docker Hub](#docker-container)<br>
+>        - [Docker Container](#docker-container)<br>
 >   -  [Conclusion](#conclusion-)<br>
 
 ### Introduction<a id='project-intro'></a>
-This project contains the production ready Machine Learning solution for detecting and classifying Covid-19, Viral disease and No disease in posteroanterior and anteroposterior view of chest x-ray"
+This project contains the production-ready Machine Learning solution for detecting and classifying Covid-19, Viral disease, and No disease in posteroanterior and anteroposterior views of chest x-ray
 
 The objective is to minimize the healthcare operational cost and increse the effectiveness of the services by assisting the healthcare provider in accurate decision making.
 
@@ -151,6 +153,33 @@ Run Pipeline<a id='run-pipeline'></a>
 ```bash
   dvc repro
 ```
+## REST API with Docker<a id='rest-api'></a>
+To run the following sequence of commands, make sure you have the docker installed on your system.
+
+### Pull Image from Docker Hub<a id='docker-pull'></a>
+In case you have not already pulled the image from the Docker Hub, you can use the following command:
+```bash
+docker pull hassi34/covid-19-chest-x-ray-image-classification
+```
+
+### Docker Container<a id='docker-container'></a>
+Now once you have the docker image from the Docker Hub, you can now run the following commands to test and deploy the container to the web
+
+* Run a Docker Container<a id='run-docker-container'></a><br>
+Check all the available images:
+```bash
+docker images
+```
+Use the following command to run a docker container on your system:
+```bash
+docker run --name <CONTAINER NAME> -p 80:8080 -d <IMAGE NAME OR ID>
+```
+Check if the container is running:
+```bash
+docker ps
+```
+If the container is running, then the API services will be available on all the network interfaces<br>
+To access the API service, type **``localhost``** in the browser.
 ## Conclusion<a id='conclusion-'></a>
 This project is production ready to be used for the similar use cases and it will provide the automated and orchesrated production ready pipeline.
 #### **Thank you for visiting 🙏 Your feedback would be highly appriciated 💯😊**<br>

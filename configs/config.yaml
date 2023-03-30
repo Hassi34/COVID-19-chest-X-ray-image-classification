@@ -43,7 +43,7 @@ gcs_config:
 
 mlflow:
   EXPERIMENT_NAME: CovidBaseExp
-  RUN_ID_PREFIX: local #change to online for deploying the code as pipeline
+  RUN_ID_PREFIX: online #change to online for deploying the code as pipeline
   MODEL_NAME : Covid-19 Model
 
 model_serving:
