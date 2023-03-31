@@ -62,6 +62,8 @@ This project contains the production-ready Machine Learning solution for detecti
 
 The objective is to minimize the healthcare operational cost and increase the effectiveness of the services by assisting the healthcare provider in accurate decision-making.
 
+## Class Activation Map
+![image](./assets/ClassActivation.jpeg)
 ## System Design
 ![image](./assets/SystemDesign.png)
 
