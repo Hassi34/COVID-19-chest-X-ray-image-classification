@@ -19,7 +19,7 @@
         <img alt="License" src="https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-g.svg">
     </a>
     <a href="https://github.com/Hassi34/COVID-19-chest-X-ray-image-classification">
-        <img alt="Build" src="https://circleci.com/gh/Hassi34/COVID-19-chest-X-ray-image-classification.svg?style=svg&circle-token=99997b17e412c65f50a2331f4c1e849e770708ae">
+        <img alt="Build" src="https://circleci.com/gh/Hassi34/COVID-19-chest-X-ray-image-classification.svg?style=svg&circle-token=d85dfbfefbcb696a26e157aff116945f84f904d3">
     </a>
     <a href="https://github.com/Hassi34/COVID-19-chest-X-ray-image-classification">
         <img alt="Last Commit" src="https://img.shields.io/github/last-commit/hassi34/COVID-19-chest-X-ray-image-classification/main?color=g">
@@ -41,7 +41,7 @@
     </a>
 </p>
 
-Following are the major contents to follow, you can jump to any section:
+Following are the main contents to follow, you can jump to any section:
 
 >   -  [Introduction](#project-intro)<br>
 >   -  [Project Notebooks](https://github.com/Hassi34/COVID-19-chest-X-ray-image-classification/tree/notebooks)
@@ -60,7 +60,7 @@ Following are the major contents to follow, you can jump to any section:
 ### Introduction<a id='project-intro'></a>
 This project contains the production-ready Machine Learning solution for detecting and classifying Covid-19, Viral disease, and No disease in posteroanterior and anteroposterior views of chest x-ray
 
-The objective is to minimize the healthcare operational cost and increse the effectiveness of the services by assisting the healthcare provider in accurate decision making.
+The objective is to minimize the healthcare operational cost and increase the effectiveness of the services by assisting the healthcare provider in accurate decision-making.
 
 ## System Design
 ![image](./assets/SystemDesign.png)
@@ -154,7 +154,7 @@ Run Pipeline<a id='run-pipeline'></a>
   dvc repro
 ```
 ## REST API with Docker<a id='rest-api'></a>
-To run the following sequence of commands, make sure you have the docker installed on your system.
+To run the following command sequence, ensure you have the docker installed on your system.
 
 ### Pull Image from Docker Hub<a id='docker-pull'></a>
 In case you have not already pulled the image from the Docker Hub, you can use the following command:
@@ -181,8 +181,8 @@ docker ps
 If the container is running, then the API services will be available on all the network interfaces<br>
 To access the API service, type **``localhost``** in the browser.
 ## Conclusion<a id='conclusion-'></a>
-This project is production ready to be used for the similar use cases and it will provide the automated and orchesrated production ready pipeline.
-#### **Thank you for visiting 🙏 Your feedback would be highly appriciated 💯😊**<br>
+This project is production ready for similar use cases and will provide the automated and orchestrated production-ready pipeline.
+#### **Thank you for visiting 🙏 Your feedback would be highly appreciated 💯😊**<br>
 #### **If you find this project useful then don't forget to star the repo ✨⭐🤖**<br>
 #### 🌏[My Portfolio Website][website] <br><br>
 #### **📃 License**
